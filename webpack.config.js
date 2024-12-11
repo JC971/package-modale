@@ -37,7 +37,7 @@ module.exports = {
 const path = require('path');
 
 module.exports = {
-  mode: "production", // Ou "development" pour le débogage
+  mode: "production", 
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
